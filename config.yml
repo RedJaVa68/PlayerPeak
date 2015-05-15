@@ -1,0 +1,15 @@
+# Cash received when a new peak is achieved.
+# money.each : Cash received each time the peak is achieved
+# money.periodical: Cash received when the peak
+# new-peak-message: The message broadcasted when peak changes.
+# Use &peak& to display the new peak record. Use &money& to display the amount of cash dispensed to the players.
+# peak-player-count: keeps record of the peak record.
+money:
+  each: 0.0
+  periodical: 0.0
+Milestones:
+  50: 30.0
+  100: 50.0
+  150: 100.0
+new-peak-message: 'A new peak has been achieved! The new peak player count is &peak&
+peak-player-count: 0
